@@ -1,6 +1,11 @@
 <template>
 	<view class="index">
-		<web-view :src="url"></web-view>
+		<view class="item" v-for="item in list" :key='item.id'>
+			<image class="pic1" @click="toTiaozhuan(item)" :src="item.image" mode="widthFix">
+			</image>
+			<view class="txt">{{item.name}}</view>
+		</view>
+
 	</view>
 </template>
 
@@ -13,7 +18,6 @@
 			return {
 				id: "",
 				list: [],
-				url:'https://ptumao.5laoye.com'
 			}
 		},
 		methods: {

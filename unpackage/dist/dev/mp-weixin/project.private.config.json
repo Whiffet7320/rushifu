@@ -143,6 +143,12 @@
           "pathName": "pages/index/zhuanpan/zhuanpan",
           "query": "scene=38_0",
           "scene": null
+        },
+        {
+          "name": "pages/index/jiancaijiedao/jiancaijiedao",
+          "pathName": "pages/index/jiancaijiedao/jiancaijiedao",
+          "query": "id=31",
+          "scene": null
         }
       ]
     }
